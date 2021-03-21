@@ -16,7 +16,7 @@
 
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 
-                <div class="container">
+                <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">Latitude</a>
                 <div class="navbar-header">
 
@@ -51,33 +51,41 @@
             </div>
             </nav>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 col-sm-6">
-                        <h1 class = "description-header">Wind Speed</h1>   
-                        <hr>
-                        <img src="resources/images/Fig4.png" alt="Latitude vs Wind Speed (MPH)" class="lat vs cloudiness"/>
-                        <p>There is no major correlation between a cities location and wind speed.  We see the faster winds in the northern hemisphere.    
-                        </p></div>
-
-                        <div class="col-lg-5 col-sm-6">
-                            <h1 class = "description-header">Visualizations</h1>
-                                <a href="temperature.html">
-                                    <img src="resources/images/Fig1.png" alt = "Latitude vs Maximum Temperature (F)" style = "width:40%; height:40%"/>
-                                </a>
-                            
-                                <a href="humidity.html">
-                                    <img src="resources/images/Fig2.png" alt= "Latitude vs. Humidity (%)" style="width:40%; height:40%"/>
-                                </a>
-
-                                <a href="cloudiness.html" >
-                                    <img src="resources/images/Fig3.png" alt= "Latitude vs. Cloudiness (%)" style="width:40%; height:40%"/>
-                                </a>
-
-                                <a href="windspeed.html" >
-                                    <img src="resources/images/Fig4.png" alt= "Latitude vs. Wind Speed (MPH)" style="width:40%; height:40%"/>
+            <div class="container bg-white">
+                <h3 class="title"> Comparison: Latitude vs. X</h3>
+                <hr>
+                    <p>Click on any plot for an analysis</p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3 class="text-center">Latitude vs. Max Temperature (F)</h3>
+                                <a href="temperature.html" title="vs Temperature">
+                                    <img src="resources/images/Fig1.png" alt = "Latitude vs Maximum Temperature (F)" style = "width:100%; height:100%"/>
                                 </a>
                             </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3 class="text-center">Latitude vs. Humidity (%)</h3>
+                                <a href="humidity.html" title="vs Humidity">
+                                    <img src="resources/images/Fig2.png" alt = "Latitude vs Humidity (%)" style = "width:100%; height:100%"/>
+                                </a>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3 class="text-center">Latitude vs. Cloudiness (%)</h3>
+                                <a href="cloudiness.html" title="vs Cloudiness">
+                                    <img src="resources/images/Fig3.png" alt = "Latitude vs Cloudiness (%)" style = "width:100%; height:100%"/>
+                                </a>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3 class="text-center">Latitude vs. Wind Speed (MPH)</h3>
+                                <a href="windspeed.html" title="vs Wind Speed">
+                                    <img src="resources/images/Fig4.png" alt = "Latitude vs Wind Speed (MPH)" style = "width:100%; height:100%"/>
+                                </a>
+                            </div>                          
                     </div>
 
                 </div>
